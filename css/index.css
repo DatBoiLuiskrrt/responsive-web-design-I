@@ -365,6 +365,10 @@ button{
   padding: 39px 10px 0;
 
 }
+div header {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -389,12 +393,7 @@ footer {
   display:flex;
   justify-content: space-evenly;
 }
-/* .nav-items{
-  display: flex;
-  justify-content: space-around;
-  color: grey; 
-  width: 691px;
-} */
+
 nav{
   display: flex;
   align-items: center;
@@ -508,7 +507,7 @@ ul li{
    align-items: center;
    flex-direction: column;
    border-bottom: 1px solid black;
-   border-top: 1px solid black;
+   /* border-top: 1px solid black; */
    padding: 15%;
  }
 
@@ -518,6 +517,7 @@ ul li{
       /* border: 1px solid black; */
       width: 500px;
       justify-content: space-evenly;
+      padding-left: 2%;
     }
     .cta{
       display: flex;
@@ -532,6 +532,7 @@ ul li{
       display: flex;
       flex-direction:column;
       align-items: center;
+      padding-left: 0%;
       /* border: 1px solid black; */
    
     }
@@ -545,25 +546,27 @@ ul li{
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 100%;
     }
+  }
+  div.text-content{
+    padding-bottom: 16px;
+    padding-left: 0%;
+    /* border: 1px solid black; */
+  }
     .contact{
       display: flex;
       flex-direction: column;
       width: 500px;
-      padding-left: 14%;
+      padding-left: 2%;
     
-    }
-    .text-content{
-      padding-bottom: 16px;
-      padding-left: 4%;
-      border: 1px solid black;
     }
     footer{
       display: flex;
+      padding-left: 15%;
       align-items: center;
-      padding-left: 20%;
     }
-   header{
+   div header{
      display: flex;
      flex-direction: column-reverse;
      align-items: center;
@@ -571,14 +574,17 @@ ul li{
      width: 500px;
     
    }
-header nav a{
+body div header nav a {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     align-items: flex-end;
-    border: 1px solid black;
+    /* border: 1px solid red; */
     width: 100px;
-    padding:0px;
-    color: grey;
-    padding-bottom: 20px;
+    /* color: purple; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
   }
 
    
