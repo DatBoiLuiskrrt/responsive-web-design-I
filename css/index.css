@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
 
-  display: inline-block;
+  display: flex;
 
   width: 691px;
 
@@ -159,6 +159,9 @@ header nav a {
 
   text-decoration: none;
 
+}
+header{
+  display: flex;
 }
 
 
@@ -479,22 +482,99 @@ ul li{
   width: 50%;
   justify-content: space-around;
 }
-@media(max-width: 800px){
+
+
+
+ @media(max-width: 500px){
+   
+    .container{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .mobile-nav{
+      display: flex;
+      flex-direction: column;
+      /* border: 1px solid black; */
+      padding: 6%;
+      width: 500px;
+      align-items: center;
+
+      
+      
+    }
+ nav{
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   padding: 15%;
+   
+
+ }
     
-}
+    .main-content{
+      /* border: 1px solid black; */
+      width: 500px;
+      justify-content: space-evenly;
+    }
+    .cta{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 500px;
+    }
+    .foto{
+      display: none;
+    }
+    .top-content{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      /* border: 1px solid black; */
+   
+    }
+    .middle-img{
+      width: 350px;
+      justify-content: center;
+      border: 1px solid blue; 
+      margin-left: 10%;
+    }
+    .bottom-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      padding-left: 14%;
+    
+    }
+    .text-content{
+      padding-bottom: 16px;
+      padding-left: 4%;
+      border: 1px solid black;
+    }
+    footer{
+      display: flex;
+      align-items: center;
+      padding-left: 20%;
+    }
+   header{
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     /* border: 1px solid black; */
+     width: 500px;
+    
+   }
+   a{
+     display: flex;
+     flex-direction: column;
+   }
+   
+} 
 
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Securitys
-Status
-Help
- 
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
 
