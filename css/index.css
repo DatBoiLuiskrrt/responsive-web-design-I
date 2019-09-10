@@ -377,15 +377,17 @@ button {
 
 .bottom-content {
   display: flex;
+  width: 100%;
 
 }
 
 .main-content {
 
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
   margin-top: 76px;
   padding-top: 39px;
-  border-bottom: 1px solid black;
+  width: 100%;
+  /* border-bottom: 1px solid black; */
 
 }
 
@@ -741,15 +743,17 @@ ul li {
    nav {
     display: flex;
     align-items: center;
+    width: 100%;
+    padding: 0;
      /* border: 1px solid black; */
     
   }  
 
   .main-content {
     /* border: 1px solid black; */
-    width: 500px;
+    width: 100%;
     justify-content: space-evenly;
-    padding-left: 2%;
+    padding-left: 0%;
   }
 
   .cta {
@@ -761,6 +765,7 @@ ul li {
 
   .foto {
     display: none;
+    width: 100%;
   }
 
   .top-content {
@@ -776,7 +781,7 @@ ul li {
   .middle-img {
     width: 100%;
     justify-content: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
 
   .bottom-content {
