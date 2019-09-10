@@ -593,7 +593,11 @@ ul li {
   width: 50%;
   justify-content: space-around;
 }
-
+.nav-container{
+  display: flex;
+  padding: 0;
+  /* border: 1px solid black; */
+}
 
 
 @media(max-width: 500px) {
